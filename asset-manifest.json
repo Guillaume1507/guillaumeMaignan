@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47264388.css",
+    "main.js": "/static/js/main.fd844ad4.js",
+    "static/js/787.ed27e438.chunk.js": "/static/js/787.ed27e438.chunk.js",
+    "static/media/sueapp3.jpg": "/static/media/sueapp3.30a9e8587b58e4d8bf5e.jpg",
+    "static/media/gympicture8.jpg": "/static/media/gympicture8.e3772633240ab1aa58d7.jpg",
+    "static/media/gympicture5.jpg": "/static/media/gympicture5.5a6bf8def3072aada448.jpg",
+    "static/media/gympictureempty.jpg": "/static/media/gympictureempty.5675dea5ab7bf5b4a5e9.jpg",
+    "static/media/learnCursive8.jpg": "/static/media/learnCursive8.b46cdc7dd507c945e3fc.jpg",
+    "static/media/learnCursive7.jpg": "/static/media/learnCursive7.99446c581f4528ba3b15.jpg",
+    "static/media/sueapp1.jpg": "/static/media/sueapp1.332d6b78882379a9ddb8.jpg",
+    "static/media/learnCursive6.jpg": "/static/media/learnCursive6.e233c12a316207852511.jpg",
+    "static/media/gympicture7.jpg": "/static/media/gympicture7.da3c2dd8dd8c9d306143.jpg",
+    "static/media/sueapp4.jpg": "/static/media/sueapp4.8a4d085fa722332a6aa9.jpg",
+    "static/media/learnCursive5.jpg": "/static/media/learnCursive5.27bfc9b4aefe2967489c.jpg",
+    "static/media/sueapp2.jpg": "/static/media/sueapp2.c84ae4173aae2463745d.jpg",
+    "static/media/Valencia.ttf": "/static/media/Valencia.982aa30178d00befd6f0.ttf",
+    "static/media/AvenirLTStd-Black.otf": "/static/media/AvenirLTStd-Black.7ce894e12078ca8c5134.otf",
+    "static/media/AvenirLTStd-Book.otf": "/static/media/AvenirLTStd-Book.813557df4c7a90b1a474.otf",
+    "static/media/insta.svg": "/static/media/insta.61deed1ba8f170c294c80a372966bd1f.svg",
+    "static/media/mail.svg": "/static/media/mail.faca000c1aad5163b2d6e95ee27fc449.svg",
+    "static/media/git.svg": "/static/media/git.c5e25e2c7eac0fdf5d404b98491f6966.svg",
+    "static/media/twitter.svg": "/static/media/twitter.91acf50ab549ac25dded24a3929ab749.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.88cca3a11b1215b7b9741c88430a192f.svg",
+    "index.html": "/index.html",
+    "main.47264388.css.map": "/static/css/main.47264388.css.map",
+    "main.fd844ad4.js.map": "/static/js/main.fd844ad4.js.map",
+    "787.ed27e438.chunk.js.map": "/static/js/787.ed27e438.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47264388.css",
+    "static/js/main.fd844ad4.js"
+  ]
+}
