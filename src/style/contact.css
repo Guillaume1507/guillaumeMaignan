@@ -1,0 +1,50 @@
+.contactContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.contactTitle {
+  transition: transform 0.5s ease-out;
+  font-family: "AvenirHeavy";
+  font-size: 200px;
+  position: absolute;
+  color: #eee;
+  top: 12%;
+  left: -80%;
+}
+.iconContainer {
+  /* margin-left: 20%; */
+  margin-right: 3%;
+  z-index: 1;
+  transform: translateY(210%);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.icon {
+  height: 90px;
+  width: 90px;
+}
+
+@media screen and (max-width: 390px) {
+  .iconContainer {
+    margin-top: 100px;
+    display: grid;
+    z-index: 1;
+    /* flex-flow: column; */
+    /* flex-flow: row wrap; */
+    /* justify-content: space-around; */
+    transform: translateY(0%);
+    grid-template: 80px 80px 80px / 1fr 1fr;
+    justify-items: center;
+  }
+  .icon {
+    height: 60px;
+    width: 60px;
+  }
+  .contactTitle {
+    font-size: 5rem;
+    left: -30%;
+  }
+}

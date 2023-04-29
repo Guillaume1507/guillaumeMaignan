@@ -1,0 +1,54 @@
+.name {
+  color: black;
+  display: flex;
+  transform: translateY(150px);
+  animation: transitionIn 2s forwards;
+  animation-delay: 0.5s;
+  font-family: "Valencia", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  /* animation: cubic-bezier(0, 0.1, 0.12, 0.99) normal; */
+
+  font-size: 500%;
+  /* position: absolute; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.nameContainer {
+  z-index: 1;
+  text-align: center;
+  position: relative;
+}
+.titleContainer {
+  z-index: 1;
+  position: relative;
+}
+.title {
+  color: black;
+  animation-delay: 6s;
+  animation: transitionIn 5s;
+  /* animation-delay: 6s; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* animation: cubic-bezier(0, 0.1, 0.12, 0.99) normal; */
+  /* transform: translateX(210px); */
+  margin-bottom: 0;
+  font-size: 200%;
+  /* position: relative; */
+}
+
+@keyframes transitionIn {
+  from {
+    transform: translateY(150px);
+    /* opacity: 0; */
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name {
+    transform: translateY(195px);
+  }
+}
