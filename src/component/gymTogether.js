@@ -1,7 +1,7 @@
-import picturegym5 from "../picture/gympicture51.png";
-import picturegym7 from "../picture/gympicture71.png";
-import picturegym8 from "../picture/gympicture8.png";
-import picturegym9 from "../picture/gympictureempty2.png";
+import picturegym5 from "../picture/gympicture51.webp";
+import picturegym7 from "../picture/gympicture71.webp";
+import picturegym8 from "../picture/gympicture8.webp";
+import picturegym9 from "../picture/gympictureempty2.webp";
 
 function GymTogether(props) {
   let scrollPerAdjust = props.adjust;

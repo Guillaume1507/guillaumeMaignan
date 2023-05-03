@@ -1,7 +1,7 @@
-import sueapp1 from "../picture/sueapp1.jpg";
-import sueapp2 from "../picture/sueapp2.jpg";
-import sueapp3 from "../picture/sueapp3.jpg";
-import sueapp4 from "../picture/sueapp4.jpg";
+import sueapp1 from "../picture/sueapp1.webp";
+import sueapp2 from "../picture/sueapp2.webp";
+import sueapp3 from "../picture/sueapp3.webp";
+import sueapp4 from "../picture/sueapp4.webp";
 
 function SueApp2(props) {
   let scrollPerAdjust = props.adjust;

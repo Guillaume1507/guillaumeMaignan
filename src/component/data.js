@@ -13,16 +13,16 @@ const data = [
     number: "02",
     projectName: "Sueapp",
     projectDesc:
-      "SueApp is an affordable, data driven, user-friendly solution to filing small claims and bypassing the traditional and costly legal processt.",
+      "SueApp is an affordable, data driven, user-friendly solution to filing small claims and bypassing the traditional and costly legal process.",
     projectType: "React • Node JS • MongoDB ",
     roles: ["Full Stack Developer", "Data-base"],
   },
   {
     id: 3,
     number: "03",
-    projectName: "learnCursive",
+    projectName: "LearnCursive",
     projectDesc:
-      "Learn cursive is an Memory type app to help people who already know Hebrew alphabet but not the cursive one",
+      "Learn cursive is a Memory type app to help people who already know the Hebrew alphabet and not the cursive one",
     projectType: "Mobile APP",
     roles: ["Front-end Developer", "UI Designer"],
   },

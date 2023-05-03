@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { Component } from "react";
 import NameReveal from "./component/nameReaveal";
 import TitleReaveal from "./component/titleReaveal";
 import Skills from "./component/skills";
@@ -9,21 +9,26 @@ import Contact from "./component/contact";
 import ".//style/App.css";
 import AboutMe from "./component/aboutMe";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <NameReveal />
-        <TitleReaveal />
-      </header>
-      <section>
-        <AboutMe />
-      </section>
-      <ImageContent />
-      <Skills />
-      <Contact />
-    </div>
-  );
+class App extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+    console.log("didmont");
+  }
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <NameReveal />
+          <TitleReaveal />
+        </header>
+        <section>
+          <AboutMe />
+        </section>
+        <ImageContent />
+        <Skills />
+        <Contact />
+      </div>
+    );
+  }
 }
-
 export default App;
