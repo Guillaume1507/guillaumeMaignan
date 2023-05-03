@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/guillaumeMaignan/static/css/main.17fb2fa7.css",
-    "main.js": "/guillaumeMaignan/static/js/main.9caa0a5a.js",
+    "main.js": "/guillaumeMaignan/static/js/main.f4d8356d.js",
     "static/js/787.ed27e438.chunk.js": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js",
-    "static/media/gympicture8.png": "/guillaumeMaignan/static/media/gympicture8.1f056cdd215dc3963b23.png",
-    "static/media/learnCursive13.png": "/guillaumeMaignan/static/media/learnCursive13.111848dc497beccea248.png",
-    "static/media/learnCursive12.png": "/guillaumeMaignan/static/media/learnCursive12.36198d223c64950393aa.png",
-    "static/media/gympictureempty2.png": "/guillaumeMaignan/static/media/gympictureempty2.6f64797621a4e2a6fe55.png",
-    "static/media/LeranCursive11.png": "/guillaumeMaignan/static/media/LeranCursive11.819680e0e170f525f177.png",
-    "static/media/gympicture51.png": "/guillaumeMaignan/static/media/gympicture51.3059dc960945acc180f3.png",
-    "static/media/learncursive42.png": "/guillaumeMaignan/static/media/learncursive42.7b6e2d642893febb06f5.png",
-    "static/media/gympicture71.png": "/guillaumeMaignan/static/media/gympicture71.41b37bf910128bc2c9a9.png",
-    "static/media/sueapp3.jpg": "/guillaumeMaignan/static/media/sueapp3.30a9e8587b58e4d8bf5e.jpg",
-    "static/media/sueapp1.jpg": "/guillaumeMaignan/static/media/sueapp1.332d6b78882379a9ddb8.jpg",
-    "static/media/sueapp4.jpg": "/guillaumeMaignan/static/media/sueapp4.8a4d085fa722332a6aa9.jpg",
-    "static/media/sueapp2.jpg": "/guillaumeMaignan/static/media/sueapp2.c84ae4173aae2463745d.jpg",
+    "static/media/gympicture8.webp": "/guillaumeMaignan/static/media/gympicture8.4409d5f7c04dbe59bbcc.webp",
+    "static/media/gympictureempty2.webp": "/guillaumeMaignan/static/media/gympictureempty2.f250cfc778d536509fad.webp",
+    "static/media/gympicture51.webp": "/guillaumeMaignan/static/media/gympicture51.ad6e14c08e118312e657.webp",
+    "static/media/learnCursive13.webp": "/guillaumeMaignan/static/media/learnCursive13.8b221c5d47770aab86c6.webp",
+    "static/media/learnCursive12.webp": "/guillaumeMaignan/static/media/learnCursive12.e0d8154a38300ff48dbb.webp",
+    "static/media/LeranCursive11.webp": "/guillaumeMaignan/static/media/LeranCursive11.e27d34882067679f05af.webp",
+    "static/media/learncursive42.webp": "/guillaumeMaignan/static/media/learncursive42.3fd0469fdfbfb0027375.webp",
+    "static/media/gympicture71.webp": "/guillaumeMaignan/static/media/gympicture71.5a77de9ce232d0d79401.webp",
+    "static/media/sueapp3.webp": "/guillaumeMaignan/static/media/sueapp3.b1e4592532ead83c1a89.webp",
+    "static/media/sueapp1.webp": "/guillaumeMaignan/static/media/sueapp1.fc62caabe8c79a8dd9e1.webp",
+    "static/media/sueapp4.webp": "/guillaumeMaignan/static/media/sueapp4.6cfec109b21271ac1763.webp",
+    "static/media/sueapp2.webp": "/guillaumeMaignan/static/media/sueapp2.4a6642c0f96418a4abbf.webp",
     "static/media/Valencia.ttf": "/guillaumeMaignan/static/media/Valencia.982aa30178d00befd6f0.ttf",
     "static/media/AvenirLTStd-Black.otf": "/guillaumeMaignan/static/media/AvenirLTStd-Black.7ce894e12078ca8c5134.otf",
     "static/media/AvenirLTStd-Book.otf": "/guillaumeMaignan/static/media/AvenirLTStd-Book.813557df4c7a90b1a474.otf",
@@ -25,11 +25,11 @@
     "static/media/linkedin.svg": "/guillaumeMaignan/static/media/linkedin.88cca3a11b1215b7b9741c88430a192f.svg",
     "index.html": "/guillaumeMaignan/index.html",
     "main.17fb2fa7.css.map": "/guillaumeMaignan/static/css/main.17fb2fa7.css.map",
-    "main.9caa0a5a.js.map": "/guillaumeMaignan/static/js/main.9caa0a5a.js.map",
+    "main.f4d8356d.js.map": "/guillaumeMaignan/static/js/main.f4d8356d.js.map",
     "787.ed27e438.chunk.js.map": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17fb2fa7.css",
-    "static/js/main.9caa0a5a.js"
+    "static/js/main.f4d8356d.js"
   ]
 }
