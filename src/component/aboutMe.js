@@ -3,39 +3,34 @@ import { useState, useEffect } from "react";
 function AboutMe() {
   const [scrollPercent, setScrollpercent] = useState("");
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const { body, documentElement } = window.document;
-
-      const sd = Math.max(body.scrollTop, documentElement.scrollTop);
-      let sp =
-        (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
-        100;
-      const minlimit =
-        (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-      const maxlimit =
-        (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
-      if (sp >= minlimit && sp <= maxlimit + 3) {
-        sp -= minlimit;
-        // this.setState({ scrollPercent: sp });
-      }
+  const handleScroll = (event) => {
+    const { body, documentElement } = event.srcElement;
+    const sd = Math.max(body.scrollTop, documentElement.scrollTop);
+    const sp =
+      (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
+      100;
+    const maxlimit =
+      (documentElement.clientHeight * 150) / documentElement.scrollHeight;
+    if (sp >= 0 && sp <= maxlimit) {
+      // this.setState({ scrollPercent: sp });
       setScrollpercent(sp);
-      window.addEventListener("scroll", handleScroll);
-    };
-    handleScroll();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  });
-  // console.log(scrollPercent, "skills");
+  }, []);
 
-  var scrollY2 = scrollPercent * 1.7;
+  var scrollY2 = scrollPercent * 2.5;
   var paraStyle = { transform: `translateX(${scrollY2}%)` };
 
   return (
     <div>
       <p className="aboutme">
-        Experienced full-stack developer with expertise in designing and
+        Highly motivated full-stack developer with expertise in designing and
         implementing scalable web applications using modern technologies and
         frameworks
       </p>

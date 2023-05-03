@@ -42,3 +42,15 @@
     top: 0%;
   }
 }
+@media screen and (max-height: 560px) {
+  .skillTittle {
+    font-size: 8rem;
+  }
+  .skillsList {
+    font-size: 30px;
+    padding-right: 10px;
+  }
+  .skillsContainer {
+    height: 120vh;
+  }
+}

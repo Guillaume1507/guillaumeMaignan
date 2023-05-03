@@ -8,121 +8,65 @@ import GymTogether from "./gymTogether";
 
 function ImageContent() {
   const [scrollPercent, setScrollpercent] = useState(0);
-  const [indexJ, setIndexJ] = useState(0);
+  const [indexJ, setIndexJ] = useState(3);
   // const [nameClass, setNameClass] = useState("hidden");
 
+  // useEffect(() => {
+  const handleScroll = () => {
+    const { body, documentElement } = window.document;
+
+    const sd = Math.max(body.scrollTop, documentElement.scrollTop);
+    let sp =
+      (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
+      100;
+
+    const minlimit =
+      (documentElement.clientHeight * 950) / documentElement.scrollHeight;
+    const maxlimit =
+      (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
+
+    if (sp >= minlimit && sp <= maxlimit + 3) {
+      sp -= minlimit;
+    }
+    if (scrollPercent < 23) {
+      setIndexJ(3);
+    }
+    if (scrollPercent > 23) {
+      // entry.target.classList.remove("show");
+      // function anim() {
+      // entry.target.classList.add("show");
+      setIndexJ(0);
+      // }
+      // window.requestAnimationFrame(anim);
+    }
+    if (scrollPercent > 39) {
+      // entry.target.classList.remove("show");
+      setIndexJ(1);
+      // entry.target.classList.add("show");
+
+      // requestAnimationFrame(anim);
+    }
+    if (scrollPercent > 55) {
+      // entry.target.classList.remove("show");
+      setIndexJ(2);
+      // entry.target.classList.replace("show", "show");
+      // entry.target.classList.add("show");
+    }
+    if (scrollPercent > 76) {
+      setIndexJ(3);
+      // entry.target.classList.remove("show");
+    }
+    setScrollpercent(sp);
+  };
+
   useEffect(() => {
-    // const observer = new IntersectionObserver((entries) => {
-    // entries.forEach((entry) => {
-    // entry.target.classList.add("show");
-
-    // if (scrollPercent < 18) {
-    //   setIndexJ(3);
-    // }
-    // if (scrollPercent > 18) {
-    //   // entry.target.classList.remove("show");
-    //   // function anim() {
-    //   // entry.target.classList.add("show");
-    //   setIndexJ(0);
-    //   // }
-    //   // window.requestAnimationFrame(anim);
-    // }
-    // if (scrollPercent > 35) {
-    //   // entry.target.classList.remove("show");
-    //   setIndexJ(1);
-    //   // entry.target.classList.add("show");
-
-    //   // requestAnimationFrame(anim);
-    // }
-    // if (scrollPercent > 50) {
-    //   // entry.target.classList.remove("show");
-    //   setIndexJ(2);
-    //   // entry.target.classList.replace("show", "show");
-    //   // entry.target.classList.add("show");
-    // }
-    // if (scrollPercent > 63) {
-    //   setIndexJ(3);
-    //   entry.target.classList.remove("show");
-    // }
-
-    // if (indexJ === 0) {
-    //   entry.target.classList.remove("show");
-    //   setTimeout(() => {
-    //     entry.target.classList.add("show");
-    //   }, 0);
-    // }
-    // if (indexJ === 1) {
-    //   entry.target.classList.remove("show");
-    //   setTimeout(() => {
-    //     entry.target.classList.add("show");
-    //   }, 0);
-    // }
-    // if (indexJ === 2) {
-    //   entry.target.classList.remove("show");
-    //   setTimeout(() => {
-    //     entry.target.classList.add("show");
-    //   }, 0);
-    // }
-    // });
-    // });
-
-    // const hiddenElements = document.querySelectorAll(".hidden");
-    // hiddenElements.forEach((el) => observer.observe(el));
-
-    const handleScroll = () => {
-      const { body, documentElement } = window.document;
-
-      const sd = Math.max(body.scrollTop, documentElement.scrollTop);
-      let sp =
-        (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
-        100;
-
-      const minlimit =
-        (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-      const maxlimit =
-        (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
-
-      if (sp >= minlimit && sp <= maxlimit + 3) {
-        sp -= minlimit;
-      }
-      if (scrollPercent < 23) {
-        setIndexJ(3);
-      }
-      if (scrollPercent > 23) {
-        // entry.target.classList.remove("show");
-        // function anim() {
-        // entry.target.classList.add("show");
-        setIndexJ(0);
-        // }
-        // window.requestAnimationFrame(anim);
-      }
-      if (scrollPercent > 39) {
-        // entry.target.classList.remove("show");
-        setIndexJ(1);
-        // entry.target.classList.add("show");
-
-        // requestAnimationFrame(anim);
-      }
-      if (scrollPercent > 55) {
-        // entry.target.classList.remove("show");
-        setIndexJ(2);
-        // entry.target.classList.replace("show", "show");
-        // entry.target.classList.add("show");
-      }
-      if (scrollPercent > 76) {
-        setIndexJ(3);
-        // entry.target.classList.remove("show");
-      }
-      setScrollpercent(sp);
-
-      window.addEventListener("scroll", handleScroll);
-    };
-    handleScroll();
+    window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-    // console.log(indexJ, "indexj");
   });
+  // console.log(indexJ, "indexj");
+  // });
 
   // let nameclass = "hidden";
 

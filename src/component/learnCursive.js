@@ -1,7 +1,9 @@
-import LearnCursive5 from "../picture/learnCursive5.jpg";
-import LearnCursive6 from "../picture/learnCursive6.jpg";
-import LearnCursive7 from "../picture/learnCursive7.jpg";
-import LearnCursive8 from "../picture/learnCursive8.jpg";
+// import LearnCursive5 from "../picture/learnCursive5.jpg";
+import LearnCursive6 from "../picture/learnCursive12.png";
+import LearnCursive7 from "../picture/learnCursive13.png";
+import LearnCursive8 from "../picture/learncursive42.png";
+
+import LearnCursive5 from "../picture/LeranCursive11.png";
 
 function LearnCursive(props) {
   let scrollPerAdjust = props.adjust;

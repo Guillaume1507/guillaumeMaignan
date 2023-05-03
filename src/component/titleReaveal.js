@@ -15,7 +15,7 @@ const WhiteBlock = styled.div`
   position: absolute;
   background-color: white;
   margin-right: 100%;
-  width: 120%;
+  width: 100%;
   height: 35vh;
   animation: ${hideWhiteBlocks} 0.5s linear forwards;
   animation-delay: 2s;

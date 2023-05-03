@@ -4,30 +4,30 @@ import "..//style/skills.css";
 function Skills() {
   const [scrollPercent, setScrollpercent] = useState("");
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const { body, documentElement } = window.document;
+  const handleScroll = () => {
+    const { body, documentElement } = window.document;
 
-      const sd = Math.max(body.scrollTop, documentElement.scrollTop);
-      let sp =
-        (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
-        100;
-      const minlimit =
-        (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-      const maxlimit =
-        (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
-      if (sp >= minlimit && sp <= maxlimit + 3) {
-        sp -= minlimit;
-        // this.setState({ scrollPercent: sp });
-      }
-      setScrollpercent(sp);
-      window.addEventListener("scroll", handleScroll);
-    };
-    handleScroll();
+    const sd = Math.max(body.scrollTop, documentElement.scrollTop);
+    let sp =
+      (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
+      100;
+    const minlimit =
+      (documentElement.clientHeight * 950) / documentElement.scrollHeight;
+    const maxlimit =
+      (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
+    if (sp >= minlimit && sp <= maxlimit + 3) {
+      sp -= minlimit;
+      // this.setState({ scrollPercent: sp });
+    }
+    setScrollpercent(sp);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scrollPercent]);
+  }, []);
   // console.log(scrollPercent, "skills");
 
   var scrollY2 = Math.max(scrollPercent * 1.5);

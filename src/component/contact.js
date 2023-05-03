@@ -11,30 +11,32 @@ import twitter from "../picture/twitter.svg";
 function Contact() {
   const [scrollPercent, setScrollpercent] = useState("");
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const { body, documentElement } = window.document;
+  const handleScroll = () => {
+    const { body, documentElement } = window.document;
 
-      const sd = Math.max(body.scrollTop, documentElement.scrollTop);
-      let sp =
-        (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
-        100;
-      const minlimit =
-        (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-      const maxlimit =
-        (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
-      if (sp >= minlimit && sp <= maxlimit + 3) {
-        sp -= minlimit;
-        // this.setState({ scrollPercent: sp });
-      }
-      setScrollpercent(sp);
-      window.addEventListener("scroll", handleScroll);
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
+    const sd = Math.max(body.scrollTop, documentElement.scrollTop);
+    let sp =
+      (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
+      100;
+    const minlimit =
+      (documentElement.clientHeight * 950) / documentElement.scrollHeight;
+    const maxlimit =
+      (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
+    if (sp >= minlimit && sp <= maxlimit + 3) {
+      sp -= minlimit;
+      // this.setState({ scrollPercent: sp });
+    }
+    setScrollpercent(sp);
+  };
+  // handleScroll();
+  // }, [scrollPercent]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
     };
-    handleScroll();
-  }, [scrollPercent]);
+  }, []);
   // console.log(scrollPercent, "contact");
   var scrollY2 = Math.max(scrollPercent * 1.3);
   var paraStyle = { transform: `translateX(${scrollY2}%)` };
@@ -51,16 +53,16 @@ function Contact() {
         <a href="mailto:guillaume1507@hotmail.com">
           <img className="icon" src={mail} alt="mail"></img>
         </a>
-        <a href="https://www.facebook.com/">
+        <a href="https://www.linkedin.com/in/guillaume-maignan-325aba263/">
           <img className="icon" src={linkdin} alt="linkdin"></img>
         </a>
-        <a href="https://www.facebook.com/">
+        <a href="https://www.instagram.com/guillaumemaignan/">
           <img className="icon" src={insta} alt="instagram"></img>
         </a>
         <a href="https://github.com/Guillaume1507">
           <img className="icon" src={twitter} alt="gitHub"></img>
         </a>
-        <a href="https://www.facebook.com/">
+        <a href="https://wa.me/+33623219644?text=Hi%20,i%20need%20a%20devs%20😀">
           <img className="icon" src={whatsapp} alt="whatsapp"></img>
         </a>
       </div>
