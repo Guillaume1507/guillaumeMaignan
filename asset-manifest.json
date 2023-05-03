@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/guillaumeMaignan/static/css/main.b44a0e38.css",
+    "main.css": "/guillaumeMaignan/static/css/main.17fb2fa7.css",
     "main.js": "/guillaumeMaignan/static/js/main.9caa0a5a.js",
     "static/js/787.ed27e438.chunk.js": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js",
     "static/media/gympicture8.png": "/guillaumeMaignan/static/media/gympicture8.1f056cdd215dc3963b23.png",
@@ -24,12 +24,12 @@
     "static/media/twitter.svg": "/guillaumeMaignan/static/media/twitter.91acf50ab549ac25dded24a3929ab749.svg",
     "static/media/linkedin.svg": "/guillaumeMaignan/static/media/linkedin.88cca3a11b1215b7b9741c88430a192f.svg",
     "index.html": "/guillaumeMaignan/index.html",
-    "main.b44a0e38.css.map": "/guillaumeMaignan/static/css/main.b44a0e38.css.map",
+    "main.17fb2fa7.css.map": "/guillaumeMaignan/static/css/main.17fb2fa7.css.map",
     "main.9caa0a5a.js.map": "/guillaumeMaignan/static/js/main.9caa0a5a.js.map",
     "787.ed27e438.chunk.js.map": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b44a0e38.css",
+    "static/css/main.17fb2fa7.css",
     "static/js/main.9caa0a5a.js"
   ]
 }
