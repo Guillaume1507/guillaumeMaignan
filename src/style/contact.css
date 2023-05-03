@@ -27,7 +27,7 @@
   width: 90px;
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 500px) {
   .iconContainer {
     margin-top: 100px;
 
