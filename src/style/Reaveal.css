@@ -18,6 +18,8 @@
   z-index: 1;
   text-align: center;
   position: relative;
+  width: fit-content;
+  width: 60%;
 }
 .titleContainer {
   z-index: 1;

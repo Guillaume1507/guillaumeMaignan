@@ -25,24 +25,28 @@ function SueApp2(props) {
   return (
     <div>
       <img
+        loading="lazy"
         className="photo1"
         src={sueapp1}
         alt="sueapp"
         style={imgStyle1}
       ></img>
       <img
+        loading="lazy"
         className="photo2"
         src={sueapp3}
         alt="sueapp"
         style={imgStyle2}
       ></img>
       <img
+        loading="lazy"
         className="photo3"
         src={sueapp2}
         alt="sueapp"
         style={imgStyle3}
       ></img>
       <img
+        loading="lazy"
         className="photo4"
         src={sueapp4}
         alt="sueapp"

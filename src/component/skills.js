@@ -17,7 +17,6 @@ function Skills() {
       (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
     if (sp >= minlimit && sp <= maxlimit + 3) {
       sp -= minlimit;
-      // this.setState({ scrollPercent: sp });
     }
     setScrollpercent(sp);
   };
@@ -62,9 +61,9 @@ function Skills() {
           UI Maintenance
           <br />
           <br />
-          React
+          JavaScript
           <br />
-          React Native
+          React / React Native
           <br />
           Node JS
           <br />

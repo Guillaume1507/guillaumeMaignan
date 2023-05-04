@@ -11,18 +11,15 @@ import twitter from "../picture/twitter.svg";
 function Contact() {
   const [scrollPercent, setScrollpercent] = useState("");
 
-  const handleScroll = () => {
-    const { body, documentElement } = window.document;
-
+  const handleScroll = (event) => {
+    const { body, documentElement } = event.srcElement;
     const sd = Math.max(body.scrollTop, documentElement.scrollTop);
     let sp =
       (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
       100;
     const minlimit =
-      (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-    const maxlimit =
-      (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
-    if (sp >= minlimit && sp <= maxlimit + 3) {
+      (documentElement.clientHeight * 1040) / documentElement.scrollHeight;
+    if (sp >= minlimit && sp <= 100) {
       sp -= minlimit;
       // this.setState({ scrollPercent: sp });
     }
@@ -37,8 +34,8 @@ function Contact() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  // console.log(scrollPercent, "contact");
-  var scrollY2 = Math.max(scrollPercent * 1.3);
+  console.log(scrollPercent, "contact");
+  var scrollY2 = scrollPercent * 1.25;
   var paraStyle = { transform: `translateX(${scrollY2}%)` };
 
   return (

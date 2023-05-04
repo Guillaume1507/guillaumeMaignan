@@ -15,8 +15,8 @@ const hideWhiteBlocks = () => keyframes`
 const WhiteBlock = styled.div`
   position: absolute;
   background-color: white;
-  margin-right: 100%;
-  width: 110%;
+  width: -webkit-fill-available;
+
   height: 35vh;
   animation: ${hideWhiteBlocks} 1.5s forwards;
   animation-delay: 4s;

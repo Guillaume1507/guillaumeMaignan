@@ -116,7 +116,7 @@
 .aboutme {
   font-size: 38px;
   font-family: AvenirLight;
-  padding: 0 20% 0 20%;
+  padding: 0 15% 0 15%;
 }
 .projecto {
   /* padding: 20%; */
@@ -126,14 +126,14 @@
   flex-flow: row nowrap;
 }
 #projectTitle {
-  font-size: 80px;
+  font-size: 5rem;
   margin: 5% 5% 5% 10%;
   font-family: "AvenirHeavy";
 }
 #projectDesc {
   margin: 5% 5% 5% 10%;
   display: flex;
-  font-size: 30px;
+  font-size: 2rem;
   flex-flow: column nowrap;
   font-family: "AvenirBook";
 }

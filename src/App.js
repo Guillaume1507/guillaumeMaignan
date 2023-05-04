@@ -11,8 +11,9 @@ import AboutMe from "./component/aboutMe";
 
 class App extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
-    console.log("didmont");
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
   }
   render() {
     return (

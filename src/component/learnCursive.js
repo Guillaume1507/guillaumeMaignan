@@ -27,24 +27,28 @@ function LearnCursive(props) {
   return (
     <div>
       <img
+        loading="lazy"
         className="photo1"
         src={LearnCursive5}
         alt="sueapp"
         style={imgStyle1}
       ></img>
       <img
+        loading="lazy"
         className="photo2"
         src={LearnCursive6}
         alt="sueapp"
         style={imgStyle2}
       ></img>
       <img
+        loading="lazy"
         className="photo3"
         src={LearnCursive7}
         alt="sueapp"
         style={imgStyle3}
       ></img>
       <img
+        loading="lazy"
         className="photo4"
         src={LearnCursive8}
         alt="sueapp"

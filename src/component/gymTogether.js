@@ -25,6 +25,7 @@ function GymTogether(props) {
   return (
     <div>
       <img
+        loading="lazy"
         className="photo1"
         src={picturegym8}
         alt="gym-together 1"
@@ -32,17 +33,20 @@ function GymTogether(props) {
       ></img>
       <img
         className="photo2"
+        loading="lazy"
         src={picturegym9}
         alt="gym-together 2"
         style={imgStyle2}
       ></img>
       <img
+        loading="lazy"
         className="photo3"
         src={picturegym7}
         alt="gym-together 3"
         style={imgStyle3}
       ></img>
       <img
+        loading="lazy"
         className="photo4"
         src={picturegym5}
         alt="gym-together 3"

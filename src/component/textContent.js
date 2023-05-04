@@ -6,6 +6,8 @@ function TextContent(props) {
   const [nameClass, setNameClass] = useState("hidden");
   let index = props.indexJ;
 
+  console.log(index, "inde coté text");
+  console.log("set name", nameClass);
   useEffect(() => {
     if (index === 0) {
       setNameClass("hidden");
@@ -34,12 +36,12 @@ function TextContent(props) {
 
   let info = (
     <section className="appInfo">
-      <p className={nameClass} id="number">
-        {data[index].number}
-      </p>
-      <p className={nameClass} id="projectTitle">
-        {data[index].projectName}
-      </p>
+      <div className={nameClass} id="number">
+        <span>{data[index].number}</span>
+      </div>
+      <div className={nameClass} id="projectTitle">
+        <span>{data[index].projectName}</span>
+      </div>
       <p className={nameClass} id="projectDesc">
         {data[index].projectDesc}
       </p>
