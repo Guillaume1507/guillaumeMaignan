@@ -40,18 +40,18 @@
 @font-face {
   font-family: "Valencia";
   src: url("../Fonts/Valencia/Valencia.ttf");
-  font-display: swap;
+  font-display: auto;
 }
 @font-face {
   font-family: "AvenirHeavy";
   src: url("../Fonts/avenir_ff/AvenirLTStd-Black.otf");
-  font-display: swap;
+  font-display: auto;
 }
 
 @font-face {
   font-family: "AvenirBook";
   src: url("../Fonts/avenir_ff/AvenirLTStd-Book.otf");
-  font-display: swap;
+  font-display: fallback;
 }
 .hidden {
   opacity: 0;

@@ -43,7 +43,7 @@ function Skills() {
           <br />
           Frontend & Backend Dev
           <br />
-          Visual Communication
+          Redux
           <br />
           <br />
           Figma

@@ -5,7 +5,6 @@ import picturegym9 from "../picture/gympictureempty2.webp";
 
 function GymTogether(props) {
   let scrollPerAdjust = props.adjust;
-  // console.log(scrollPerAdjust, "scroll adjust in sueapp2");
 
   let scrollPercentAdjust = scrollPerAdjust - 10;
 
