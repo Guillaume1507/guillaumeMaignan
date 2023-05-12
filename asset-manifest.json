@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/guillaumeMaignan/static/css/main.196cd719.css",
-    "main.js": "/guillaumeMaignan/static/js/main.c9aa21dd.js",
+    "main.css": "/guillaumeMaignan/static/css/main.1bf0bd5e.css",
+    "main.js": "/guillaumeMaignan/static/js/main.e4d13ce6.js",
     "static/js/787.ed27e438.chunk.js": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js",
     "static/media/gympicture8.webp": "/guillaumeMaignan/static/media/gympicture8.4409d5f7c04dbe59bbcc.webp",
     "static/media/gympictureempty2.webp": "/guillaumeMaignan/static/media/gympictureempty2.f250cfc778d536509fad.webp",
@@ -24,12 +24,12 @@
     "static/media/twitter.svg": "/guillaumeMaignan/static/media/twitter.91acf50ab549ac25dded24a3929ab749.svg",
     "static/media/linkedin.svg": "/guillaumeMaignan/static/media/linkedin.88cca3a11b1215b7b9741c88430a192f.svg",
     "index.html": "/guillaumeMaignan/index.html",
-    "main.196cd719.css.map": "/guillaumeMaignan/static/css/main.196cd719.css.map",
-    "main.c9aa21dd.js.map": "/guillaumeMaignan/static/js/main.c9aa21dd.js.map",
+    "main.1bf0bd5e.css.map": "/guillaumeMaignan/static/css/main.1bf0bd5e.css.map",
+    "main.e4d13ce6.js.map": "/guillaumeMaignan/static/js/main.e4d13ce6.js.map",
     "787.ed27e438.chunk.js.map": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.196cd719.css",
-    "static/js/main.c9aa21dd.js"
+    "static/css/main.1bf0bd5e.css",
+    "static/js/main.e4d13ce6.js"
   ]
 }
