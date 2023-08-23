@@ -11,6 +11,15 @@ const data = [
   {
     id: 2,
     number: "02",
+    projectName: "Doggies",
+    projectDesc:
+      " Doggies is a dog walker App helping you to hire one or help you to work if you are a dog walker ",
+    projectType: "React Native • Aws Amplify • Sql",
+    roles: ["Full Stack Developer", "UI Designer"],
+  },
+  {
+    id: 3,
+    number: "03",
     projectName: "Sueapp",
     projectDesc:
       "SueApp is an affordable, data driven, user-friendly solution to filing small claims and bypassing the traditional and costly legal process.",
@@ -18,8 +27,8 @@ const data = [
     roles: ["Full Stack Developer", "Data-base"],
   },
   {
-    id: 3,
-    number: "03",
+    id: 4,
+    number: "04",
     projectName: "LearnCursive",
     projectDesc:
       "Learn cursive is a Memory type app to help people who already know the Hebrew alphabet and not the cursive one",
@@ -27,7 +36,7 @@ const data = [
     roles: ["Front-end Developer", "UI Designer"],
   },
   {
-    id: 4,
+    id: 5,
     number: "",
     projectName: "",
     projectDesc: "",

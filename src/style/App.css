@@ -1,3 +1,9 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,18 +46,18 @@
 @font-face {
   font-family: "Valencia";
   src: url("../Fonts/Valencia/Valencia.ttf");
-  font-display: auto;
+  font-display: block;
 }
 @font-face {
   font-family: "AvenirHeavy";
   src: url("../Fonts/avenir_ff/AvenirLTStd-Black.otf");
-  font-display: auto;
+  font-display: block;
 }
 
 @font-face {
   font-family: "AvenirBook";
   src: url("../Fonts/avenir_ff/AvenirLTStd-Book.otf");
-  font-display: fallback;
+  font-display: block;
 }
 .hidden {
   opacity: 0;
@@ -165,7 +171,7 @@
 .rightSection {
   display: flex;
   margin-left: 50%;
-  height: 450vh;
+  height: 600vh;
   width: 50%;
   /* flex-direction: ; */
   flex-flow: column nowrap;

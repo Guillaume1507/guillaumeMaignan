@@ -10,16 +10,16 @@ function SueApp2(props) {
   let scrollPercentAdjust = scrollPerAdjust - 25;
 
   var imgStyle1 = {
-    transform: `translate(0px,-${scrollPercentAdjust * 11}%)  `,
+    transform: `translate(0px,-${scrollPercentAdjust * 9}%)  `,
   };
   var imgStyle2 = {
-    transform: `translate(0px,-${scrollPercentAdjust * 8}%)  scale(0.94) `,
+    transform: `translate(0px,-${scrollPercentAdjust * 6.5}%)  scale(0.94) `,
   };
   var imgStyle3 = {
-    transform: `translate(0px,-${scrollPercentAdjust * 5}%) scale(0.6)`,
+    transform: `translate(0px,-${scrollPercentAdjust * 4}%) scale(0.6)`,
   };
   var imgStyle4 = {
-    transform: `translate(0px,-${scrollPercentAdjust * 6}%) scale(0.7) `,
+    transform: `translate(0px,-${scrollPercentAdjust * 5}%) scale(0.7) `,
   };
 
   return (

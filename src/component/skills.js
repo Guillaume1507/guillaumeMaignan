@@ -11,13 +11,13 @@ function Skills() {
     let sp =
       (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
       100;
-    const minlimit =
-      (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-    const maxlimit =
-      (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
-    if (sp >= minlimit && sp <= maxlimit + 3) {
-      sp -= minlimit;
-    }
+    // const minlimit =
+    //   (documentElement.clientHeight * 950) / documentElement.scrollHeight;
+    // const maxlimit =
+    //   (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
+    // if (sp >= minlimit && sp <= maxlimit + 3) {
+    //   sp -= minlimit;
+    // }
     setScrollpercent(sp);
   };
 

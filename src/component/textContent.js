@@ -6,8 +6,8 @@ function TextContent(props) {
   const [nameClass, setNameClass] = useState("hidden");
   let index = props.indexJ;
 
-  console.log(index, "inde coté text");
-  console.log("set name", nameClass);
+  // console.log(index, "inde coté text");
+  // console.log("set name", nameClass);
   useEffect(() => {
     if (index === 0) {
       setNameClass("hidden");
@@ -28,9 +28,17 @@ function TextContent(props) {
       setTimeout(() => {
         setNameClass("show");
       }, 10);
-      if (index === 3) {
-        setNameClass("hidden");
-      }
+    }
+    if (index === 3) {
+      setNameClass("hidden");
+
+      setTimeout(() => {
+        setNameClass("show");
+      }, 10);
+    }
+
+    if (index === 4) {
+      setNameClass("hidden");
     }
   }, [index]);
 

@@ -3,10 +3,11 @@ import TextContent from "./textContent";
 import SueApp2 from "./sueApp2";
 import LearnCursive from "./learnCursive";
 import GymTogether from "./gymTogether";
+import DoggiesApp from "./doggiesApp";
 
 function ImageContent() {
   const [scrollPercent, setScrollpercent] = useState(0);
-  const [indexJ, setIndexJ] = useState(3);
+  const [indexJ, setIndexJ] = useState(4);
 
   const handleScroll = () => {
     const { body, documentElement } = window.document;
@@ -24,22 +25,29 @@ function ImageContent() {
     if (sp >= minlimit && sp <= maxlimit + 3) {
       sp -= minlimit;
     }
-    if (scrollPercent < 23) {
-      setIndexJ(3);
+    if (sp < 23) {
+      setIndexJ(4);
     }
-    if (scrollPercent > 23) {
+    if (sp > 19) {
       setIndexJ(0);
+      setScrollpercent(sp);
     }
-    if (scrollPercent > 39) {
+    if (sp > 34) {
       setIndexJ(1);
+      setScrollpercent(sp);
     }
-    if (scrollPercent > 55) {
+    if (sp > 48) {
       setIndexJ(2);
+      setScrollpercent(sp);
     }
-    if (scrollPercent > 76) {
+    if (sp > 63) {
       setIndexJ(3);
+      setScrollpercent(sp);
     }
-    setScrollpercent(sp);
+    if (sp > 79) {
+      setIndexJ(4);
+    }
+    // setScrollpercent(sp);
   };
 
   useEffect(() => {
@@ -48,8 +56,9 @@ function ImageContent() {
       window.removeEventListener("scroll", handleScroll);
     };
   });
-
+  console.log(scrollPercent, "scrolp");
   let scrollPercentAdjust = scrollPercent;
+  // this.setState({ scrollPercent: scrollPercent });
 
   return (
     <div className="projecto">
@@ -57,6 +66,9 @@ function ImageContent() {
       <div className="rightSection">
         <div className="photoContainer">
           <GymTogether adjust={scrollPercentAdjust} />
+        </div>
+        <div className="photoContainer">
+          <DoggiesApp adjust={scrollPercentAdjust} />
         </div>
         <div className="photoContainer">
           <SueApp2 adjust={scrollPercentAdjust} />
