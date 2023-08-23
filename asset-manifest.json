@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/guillaumeMaignan/static/css/main.1bf0bd5e.css",
-    "main.js": "/guillaumeMaignan/static/js/main.e4d13ce6.js",
+    "main.css": "/guillaumeMaignan/static/css/main.d6640888.css",
+    "main.js": "/guillaumeMaignan/static/js/main.bd94ade2.js",
     "static/js/787.ed27e438.chunk.js": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js",
     "static/media/gympicture8.webp": "/guillaumeMaignan/static/media/gympicture8.4409d5f7c04dbe59bbcc.webp",
+    "static/media/doginfos3_preview_rev_1.png": "/guillaumeMaignan/static/media/doginfos3_preview_rev_1.3af99c8f458f1f4296fd.png",
+    "static/media/mapdoggies-removebg-preview-removebg-preview.png": "/guillaumeMaignan/static/media/mapdoggies-removebg-preview-removebg-preview.ca9263e78e42b65acd39.png",
     "static/media/gympictureempty2.webp": "/guillaumeMaignan/static/media/gympictureempty2.f250cfc778d536509fad.webp",
     "static/media/gympicture51.webp": "/guillaumeMaignan/static/media/gympicture51.ad6e14c08e118312e657.webp",
     "static/media/learnCursive13.webp": "/guillaumeMaignan/static/media/learnCursive13.8b221c5d47770aab86c6.webp",
     "static/media/learnCursive12.webp": "/guillaumeMaignan/static/media/learnCursive12.e0d8154a38300ff48dbb.webp",
     "static/media/LeranCursive11.webp": "/guillaumeMaignan/static/media/LeranCursive11.e27d34882067679f05af.webp",
+    "static/media/home_doggies-removebg-preview.png": "/guillaumeMaignan/static/media/home_doggies-removebg-preview.a287f6218fb2d4ff94b0.png",
     "static/media/learncursive42.webp": "/guillaumeMaignan/static/media/learncursive42.3fd0469fdfbfb0027375.webp",
     "static/media/gympicture71.webp": "/guillaumeMaignan/static/media/gympicture71.5a77de9ce232d0d79401.webp",
     "static/media/sueapp3.webp": "/guillaumeMaignan/static/media/sueapp3.b1e4592532ead83c1a89.webp",
+    "static/media/landing-removebg-preview.png": "/guillaumeMaignan/static/media/landing-removebg-preview.2d0094add175459709a7.png",
     "static/media/sueapp1.webp": "/guillaumeMaignan/static/media/sueapp1.fc62caabe8c79a8dd9e1.webp",
     "static/media/sueapp4.webp": "/guillaumeMaignan/static/media/sueapp4.6cfec109b21271ac1763.webp",
     "static/media/sueapp2.webp": "/guillaumeMaignan/static/media/sueapp2.4a6642c0f96418a4abbf.webp",
@@ -24,12 +28,12 @@
     "static/media/twitter.svg": "/guillaumeMaignan/static/media/twitter.91acf50ab549ac25dded24a3929ab749.svg",
     "static/media/linkedin.svg": "/guillaumeMaignan/static/media/linkedin.88cca3a11b1215b7b9741c88430a192f.svg",
     "index.html": "/guillaumeMaignan/index.html",
-    "main.1bf0bd5e.css.map": "/guillaumeMaignan/static/css/main.1bf0bd5e.css.map",
-    "main.e4d13ce6.js.map": "/guillaumeMaignan/static/js/main.e4d13ce6.js.map",
+    "main.d6640888.css.map": "/guillaumeMaignan/static/css/main.d6640888.css.map",
+    "main.bd94ade2.js.map": "/guillaumeMaignan/static/js/main.bd94ade2.js.map",
     "787.ed27e438.chunk.js.map": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bf0bd5e.css",
-    "static/js/main.e4d13ce6.js"
+    "static/css/main.d6640888.css",
+    "static/js/main.bd94ade2.js"
   ]
 }
