@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import TextContent from "./textContent";
 import SueApp2 from "./sueApp2";
-import LearnCursive from "./learnCursive";
+// import LearnCursive from "./learnCursive";
 import GymTogether from "./gymTogether";
 import DoggiesApp from "./doggiesApp";
+import SunsetMatches from "./SunsetMatches";
 
 function ImageContent() {
-  const [scrollPercent, setScrollpercent] = useState(0);
+  const [scrollPercent, setScrollPercent] = useState(0);
   const [indexJ, setIndexJ] = useState(4);
 
   const handleScroll = () => {
@@ -30,40 +31,55 @@ function ImageContent() {
     }
     if (sp > 19) {
       setIndexJ(0);
-      setScrollpercent(sp);
+      setScrollPercent(sp);
     }
     if (sp > 34) {
       setIndexJ(1);
-      setScrollpercent(sp);
+      setScrollPercent(sp);
     }
     if (sp > 48) {
       setIndexJ(2);
-      setScrollpercent(sp);
+      setScrollPercent(sp);
     }
     if (sp > 63) {
       setIndexJ(3);
-      setScrollpercent(sp);
+      setScrollPercent(sp);
     }
     if (sp > 79) {
       setIndexJ(4);
     }
-    // setScrollpercent(sp);
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
+    let animationFrameId;
+
+    const handleScrollThrottled = () => {
+      if (!animationFrameId) {
+        animationFrameId = requestAnimationFrame(() => {
+          handleScroll();
+          animationFrameId = null;
+        });
+      }
     };
-  });
-  console.log(scrollPercent, "scrolp");
+
+    window.addEventListener("scroll", handleScrollThrottled);
+
+    return () => {
+      window.removeEventListener("scroll", handleScrollThrottled);
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, [scrollPercent, indexJ]);
+
+  console.log(scrollPercent, "scrollPercent");
   let scrollPercentAdjust = scrollPercent;
-  // this.setState({ scrollPercent: scrollPercent });
 
   return (
     <div className="projecto">
       <TextContent indexJ={indexJ} />
       <div className="rightSection">
+        <div className="photoContainer">
+          <SunsetMatches adjust={scrollPercentAdjust} />
+        </div>
         <div className="photoContainer">
           <GymTogether adjust={scrollPercentAdjust} />
         </div>
@@ -72,9 +88,6 @@ function ImageContent() {
         </div>
         <div className="photoContainer">
           <SueApp2 adjust={scrollPercentAdjust} />
-        </div>
-        <div className="photoContainer">
-          <LearnCursive adjust={scrollPercentAdjust} />
         </div>
       </div>
     </div>

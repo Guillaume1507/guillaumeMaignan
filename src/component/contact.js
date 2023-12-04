@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import "..//style/contact.css";
-import whatsapp from "../picture/whatsapp.png";
+import whatsapp from "../picture/whatsapp.svg";
 import mail from "../picture/mail.svg";
 import linkdin from "../picture/linkedin.svg";
 import insta from "../picture/insta.svg";
@@ -17,12 +17,12 @@ function Contact() {
     let sp =
       (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
       100;
-    const minlimit =
-      (documentElement.clientHeight * 1040) / documentElement.scrollHeight;
-    if (sp >= minlimit && sp <= 100) {
-      sp -= minlimit;
-      // this.setState({ scrollPercent: sp });
-    }
+    // const minlimit =
+    //   (documentElement.clientHeight * 1040) / documentElement.scrollHeight;
+    // if (sp >= minlimit && sp <= 100) {
+    //   sp -= minlimit;
+    //   // this.setState({ scrollPercent: sp });
+    // }
     setScrollpercent(sp);
   };
   // handleScroll();

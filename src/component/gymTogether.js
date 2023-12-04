@@ -6,7 +6,7 @@ import picturegym9 from "../picture/gympictureempty2.webp";
 function GymTogether(props) {
   let scrollPerAdjust = props.adjust;
 
-  let scrollPercentAdjust = scrollPerAdjust - 10;
+  let scrollPercentAdjust = scrollPerAdjust - 15;
 
   var imgStyle1 = {
     transform: `translate(0px,-${scrollPercentAdjust * 12}%)  `,

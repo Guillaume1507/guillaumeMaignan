@@ -7,7 +7,7 @@ function SueApp2(props) {
   let scrollPerAdjust = props.adjust;
   // console.log(scrollPerAdjust, "scroll adjust in sueapp2");
 
-  let scrollPercentAdjust = scrollPerAdjust - 25;
+  let scrollPercentAdjust = scrollPerAdjust - 35;
 
   var imgStyle1 = {
     transform: `translate(0px,-${scrollPercentAdjust * 9}%)  `,

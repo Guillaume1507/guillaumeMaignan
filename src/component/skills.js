@@ -41,7 +41,7 @@ function Skills() {
         <div>
           Design DataBase
           <br />
-          Frontend & Backend Dev
+          Frontend & Backend
           <br />
           Redux
           <br />

@@ -9,7 +9,7 @@ function LearnCursive(props) {
   let scrollPerAdjust = props.adjust;
   // console.log(scrollPerAdjust, "scroll adjust in sueapp2");
 
-  let scrollPercentAdjust = scrollPerAdjust - 45;
+  let scrollPercentAdjust = scrollPerAdjust - 50;
 
   var imgStyle1 = {
     transform: `translate(0px,-${scrollPercentAdjust * 11}%)  `,
@@ -18,10 +18,10 @@ function LearnCursive(props) {
     transform: `translate(0px,-${scrollPercentAdjust * 9}%)  scale(0.94) `,
   };
   var imgStyle3 = {
-    transform: `translate(0px,-${scrollPercentAdjust * 5}%) scale(0.6)`,
+    transform: `translate(0px,-${scrollPercentAdjust * 6}%) scale(0.6)`,
   };
   var imgStyle4 = {
-    transform: `translate(0px,-${scrollPercentAdjust * 6}%) scale(0.7) `,
+    transform: `translate(0px,-${scrollPercentAdjust * 7}%) scale(0.7) `,
   };
 
   return (

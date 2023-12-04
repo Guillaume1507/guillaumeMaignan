@@ -9,6 +9,9 @@
   pointer-events: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 .App-header {
   height: 100vh;
   display: flex;
@@ -132,14 +135,14 @@
   flex-flow: row nowrap;
 }
 #projectTitle {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 5% 5% 5% 10%;
   font-family: "AvenirHeavy";
 }
 #projectDesc {
   margin: 5% 5% 5% 10%;
   display: flex;
-  font-size: 2rem;
+  font-size: 1.5em;
   flex-flow: column nowrap;
   font-family: "AvenirBook";
 }
@@ -152,10 +155,12 @@
 #projectSkills {
   font-family: AvenirHeavy;
   font-size: 30px;
-  position: relative;
-  bottom: auto;
+  position: absolute;
+  /* bottom: auto; */
+  bottom: 0;
+  /* left: 0; */
   margin: 5%;
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 /* @keyframes blackBackground {
   from {
@@ -174,6 +179,7 @@
   height: 600vh;
   width: 50%;
   /* flex-direction: ; */
+
   flex-flow: column nowrap;
   margin-top: 40vh;
   /* height: 100vh; */
@@ -185,7 +191,7 @@
   margin-top: 5%;
   display: flex;
   flex-flow: column nowrap;
-  height: 100vh;
+  height: 90vh;
   top: 0px;
   left: 0px;
   width: 50vw;
@@ -270,7 +276,7 @@
   .appInfo {
     height: 50vh;
     width: 100vw;
-    position: fixed;
+    /* position: fixed; */
     margin: 0;
   }
   /* .photoContainer {
