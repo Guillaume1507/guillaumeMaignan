@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/guillaumeMaignan/static/css/main.510feae7.css",
-    "main.js": "/guillaumeMaignan/static/js/main.f443aec4.js",
+    "main.js": "/guillaumeMaignan/static/js/main.56dcc4af.js",
     "static/js/787.ed27e438.chunk.js": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js",
     "static/media/gympicture8.webp": "/guillaumeMaignan/static/media/gympicture8.4409d5f7c04dbe59bbcc.webp",
     "static/media/doginfos3_preview_rev_1.png": "/guillaumeMaignan/static/media/doginfos3_preview_rev_1.3af99c8f458f1f4296fd.png",
@@ -13,12 +13,12 @@
     "static/media/sunsetmatches.png": "/guillaumeMaignan/static/media/sunsetmatches.a7e6f195ffbd321335f8.png",
     "static/media/profil.png": "/guillaumeMaignan/static/media/profil.3b6d971f21431f642d3f.png",
     "static/media/home_doggies-removebg-preview.png": "/guillaumeMaignan/static/media/home_doggies-removebg-preview.a287f6218fb2d4ff94b0.png",
+    "static/media/Sueapp3.png": "/guillaumeMaignan/static/media/Sueapp3.4c1c90ba495bee33da3f.png",
     "static/media/gympicture71.webp": "/guillaumeMaignan/static/media/gympicture71.5a77de9ce232d0d79401.webp",
-    "static/media/sueapp3.webp": "/guillaumeMaignan/static/media/sueapp3.b1e4592532ead83c1a89.webp",
+    "static/media/Sueapp1.png": "/guillaumeMaignan/static/media/Sueapp1.f5c892cac0d242ff2277.png",
+    "static/media/Sueapp4.png": "/guillaumeMaignan/static/media/Sueapp4.98a3b78db1114fbb8018.png",
+    "static/media/Sueapp2.png": "/guillaumeMaignan/static/media/Sueapp2.5ffc3b66ca07e5283bd9.png",
     "static/media/landing-removebg-preview.png": "/guillaumeMaignan/static/media/landing-removebg-preview.2d0094add175459709a7.png",
-    "static/media/sueapp1.webp": "/guillaumeMaignan/static/media/sueapp1.fc62caabe8c79a8dd9e1.webp",
-    "static/media/sueapp4.webp": "/guillaumeMaignan/static/media/sueapp4.6cfec109b21271ac1763.webp",
-    "static/media/sueapp2.webp": "/guillaumeMaignan/static/media/sueapp2.4a6642c0f96418a4abbf.webp",
     "static/media/Valencia.ttf": "/guillaumeMaignan/static/media/Valencia.982aa30178d00befd6f0.ttf",
     "static/media/AvenirLTStd-Black.otf": "/guillaumeMaignan/static/media/AvenirLTStd-Black.7ce894e12078ca8c5134.otf",
     "static/media/AvenirLTStd-Book.otf": "/guillaumeMaignan/static/media/AvenirLTStd-Book.813557df4c7a90b1a474.otf",
@@ -30,11 +30,11 @@
     "static/media/whatsapp.svg": "/guillaumeMaignan/static/media/whatsapp.bcba2d042c3097e46c42ad5e4d4834f2.svg",
     "index.html": "/guillaumeMaignan/index.html",
     "main.510feae7.css.map": "/guillaumeMaignan/static/css/main.510feae7.css.map",
-    "main.f443aec4.js.map": "/guillaumeMaignan/static/js/main.f443aec4.js.map",
+    "main.56dcc4af.js.map": "/guillaumeMaignan/static/js/main.56dcc4af.js.map",
     "787.ed27e438.chunk.js.map": "/guillaumeMaignan/static/js/787.ed27e438.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.510feae7.css",
-    "static/js/main.f443aec4.js"
+    "static/js/main.56dcc4af.js"
   ]
 }
