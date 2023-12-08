@@ -3,7 +3,8 @@ const data = [
     id: 1,
     number: "01",
     projectName: "Sunset Matches",
-    projectDesc: " An new dating app offering direct date after the matche",
+    projectDesc:
+      "Sunset Matches is revolutionizing the dating scene by offering a unique and immediate connection experience. Forget endless swiping and messaging with Sunset Matches, you swipe, match, and meet",
     projectType: "React •React Native • Firebase",
     roles: ["Full Stack Developer", "UI Designer", "CTO"],
   },

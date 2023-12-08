@@ -10,13 +10,13 @@ import AboutMe from "./component/aboutMe";
 
 class App extends Component {
   state = { loading: true };
-  componentWillMount() {
-    // setTimeout(() => {
-    this.setState({ loading: false });
-    // }, 10000);
-  }
+  componentWillMount() {}
 
   componentDidMount() {
+    // setTimeout(() => {
+    this.setState({ loading: false });
+    // }, 3000);
+
     if ("scrollRestoration" in window.history) {
       window.history.scrollRestoration = "manual";
     }

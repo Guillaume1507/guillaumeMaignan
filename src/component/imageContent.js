@@ -18,14 +18,14 @@ function ImageContent() {
       (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
       100;
 
-    const minlimit =
-      (documentElement.clientHeight * 950) / documentElement.scrollHeight;
-    const maxlimit =
-      (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
+    // const minlimit =
+    //   (documentElement.clientHeight * 950) / documentElement.scrollHeight;
+    // const maxlimit =
+    //   (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
 
-    if (sp >= minlimit && sp <= maxlimit + 3) {
-      sp -= minlimit;
-    }
+    // if (sp >= minlimit && sp <= maxlimit + 3) {
+    //   sp -= minlimit;
+    // }
     if (sp < 23) {
       setIndexJ(4);
     }
